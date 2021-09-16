@@ -39,14 +39,6 @@ output {
 			<textarea placeholder="文字列を入力" id="stringInput"></textarea>
 			<p><output id="output">0</output> 文字</p>
 		</main>
-		<script>
-
-const textarea = document.getElementById("stringInput");
-textarea.addEventListener("input", () => {
-	const str = textarea.value;
-	document.getElementById("output").innerHTML = [...str].length;
-});
-
-		</script>
+		<script src="script.js"></script>
 	</body>
 </html>
